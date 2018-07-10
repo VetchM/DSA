@@ -145,8 +145,12 @@
     <ClInclude Include="assignment.h" />
     <ClInclude Include="bracket.h" />
     <ClInclude Include="constructor by copying.h" />
+    <ClInclude Include="deduplicate.h" />
     <ClInclude Include="expand.h" />
+    <ClInclude Include="find.h" />
+    <ClInclude Include="insert.h" />
     <ClInclude Include="permute.h" />
+    <ClInclude Include="remove.h" />
     <ClInclude Include="shrink.h" />
     <ClInclude Include="unsort.h" />
     <ClInclude Include="Vector.h" />

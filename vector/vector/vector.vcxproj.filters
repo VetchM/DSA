@@ -39,5 +39,17 @@
     <ClInclude Include="unsort.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="find.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="insert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="remove.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deduplicate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
