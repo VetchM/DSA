@@ -8,9 +8,9 @@ void Vector::merge(Rank lo, Rank mi, Rank hi) {
 	int lc = hi - mi;
 	T* C = _elem + mi;
 	for (Rank i = 0, j = 0, k = 0;(j < lb) || (k < lc);) {
-		if ((j < lb) && (!(k < lc) || (B[j] <= C[k])))
+		if ((j < lb) && ((lc<=k) || (B[j] <= C[k])))
 			A[i++] = B[j++];
-		if ((k < lc) && (!(j < lb) || (C[k] < B[j])))
+		if ((k < lc) && ((lb<=j) || (C[k] < B[j])))
 			A[i++] = C[k++];
 	}
 	delete[] B;
