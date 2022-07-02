@@ -1,9 +1,0 @@
-#pragma once
-template <typename T>
-void List<T>::copyNodes(ListNodePosi(T), int n) {
-	init();
-	while (n--) {
-		insertAsLast(p->data);
-		p = p->succ;
-	}
-}
